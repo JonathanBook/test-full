@@ -1,0 +1,6 @@
+Options -Indexes
+Options +FollowSymlinks
+RewriteEngine	On 
+
+RewriteRule		^accueil_ifr\.html(.*)$							                    index.php?to=home$1 [L]
+
